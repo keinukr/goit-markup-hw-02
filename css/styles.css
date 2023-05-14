@@ -1,0 +1,142 @@
+/* General Styles */
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --white-text-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --hover-color: #404bbf;
+}
+
+.page {
+  background-color: var(--white-text-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.studio-header {
+  text-decoration: none;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.web:hover,
+.web:focus {
+  color: var(--title-text-color);
+}
+
+.studio-header {
+  color: var(--title-text-color);
+}
+
+.studio-header:hover,
+.studio-header:focus {
+}
+
+/* Site navigation */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts nav */
+
+.intouch {
+  text-decoration: none;
+}
+
+.intouch:hover,
+.intouch:focus {
+  color: var(--hover-color);
+}
+
+.intouch {
+  color: var(--primary-text-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--white-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--white-text-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
+}
+
+/* Section 1 Features */
+
+.features-title {
+  color: var(--title-text-color);
+}
+
+.features-text {
+  color: var(--primary-text-color);
+}
+
+/* Section 2 Examples */
+
+.examples-title {
+  color: var(--title-text-color);
+}
+
+/* Section 3 Our Team */
+
+.team-title {
+  color: var(--title-text-color);
+}
+
+.worker-title {
+  color: var(--title-text-color);
+}
+
+.position-text {
+  color: var(--primary-text-color);
+}
+/* Footer style for studio */
+
+.footer-studio {
+  text-decoration: none;
+}
+
+.footer-studio {
+  color: var(--footer-text-color);
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+}
+
+/* Колір параграфів #434455 */
+/* Heading color #2E2F42 */
+/* White text #ffffff */
+/* Web color #4D5AE5 */
+/* hero background color #2E2F42 */
+/* Background and foot Studio color #F4F4FD */
+/* Image borders color #E7E9FC */
+/* Portfolio nav color All */
