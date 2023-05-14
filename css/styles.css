@@ -38,6 +38,7 @@
 
 .studio-header:hover,
 .studio-header:focus {
+  color: var(--title-text-color);
 }
 
 /* Site navigation */
