@@ -6,6 +6,7 @@
   --white-text-color: #ffffff;
   --footer-text-color: #f4f4fd;
   --hover-color: #404bbf;
+  --border-lines: #e7e9fc;
 }
 
 .page {
@@ -17,44 +18,37 @@
   list-style: none;
 }
 
-/* Logo */
-
-.studio-header {
+.link {
   text-decoration: none;
 }
+/* Page Header */
+/* Header Navigation */
+/* Header Logo */
 
-.web {
+.page-nav {
+  background-color: var(--white-text-color);
+}
+
+.head-logo {
   color: var(--accent-color);
 }
-
-.web:hover,
-.web:focus {
-  color: var(--title-text-color);
-}
-
-.studio-header {
-  color: var(--title-text-color);
-}
-
-.studio-header:hover,
-.studio-header:focus {
+.studio {
   color: var(--title-text-color);
 }
 
 /* Site navigation */
 
-.site-nav .link {
+.hover-item {
   color: var(--title-text-color);
-  text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.current {
   color: var(--hover-color);
 }
 
-.site-nav .link.current {
-  color: var(--accent-color);
+.hover-item:hover,
+.hover-item:focus {
+  color: var(--hover-color);
 }
 
 /* Contacts nav */
@@ -74,23 +68,32 @@
 
 /* Hero */
 
+.hero {
+  background-color: var(--title-text-color);
+}
+
 .hero-title {
   color: var(--white-text-color);
 }
 
-/* Button */
+/* Button Order */
 
 .button {
   color: var(--title-text-color);
   background-color: var(--white-text-color);
 }
 
-.button.primary {
+.order {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
 
-/* Section 1 Features */
+.order:hover,
+.order:focus {
+  color: var(--white-text-color);
+  background-color: var(--hover-color);
+}
+/* Section 1 Service Filter */
 
 .features-title {
   color: var(--title-text-color);
@@ -108,6 +111,10 @@
 
 /* Section 3 Our Team */
 
+.team {
+  background-color: var(--footer-text-color);
+}
+
 .team-title {
   color: var(--title-text-color);
 }
@@ -121,17 +128,37 @@
 }
 /* Footer style for studio */
 
-.footer-studio {
+.footer {
+  background-color: var(--title-text-color);
+}
+.studio-secondary {
   text-decoration: none;
 }
-
-.footer-studio {
+.studio-secondary {
+  color: var(--accent-color);
+}
+.studio-footer {
   color: var(--footer-text-color);
 }
 
 .footer-text {
   color: var(--footer-text-color);
 }
+
+/* Portfolio */
+
+.filter {
+  color: var(--accent-color);
+  background-color: var(--footer-text-color);
+}
+
+.filter:hover,
+.filter.focus {
+  color: var(--white-text-color);
+  background-color: var(--hover-color);
+}
+
+/* Services */
 
 /* Колір параграфів #434455 */
 /* Heading color #2E2F42 */
@@ -141,3 +168,5 @@
 /* Background and foot Studio color #F4F4FD */
 /* Image borders color #E7E9FC */
 /* Portfolio nav color All */
+/* border lines #E7E9FC */
+/* Hover #404BBF */
