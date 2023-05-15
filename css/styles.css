@@ -65,7 +65,7 @@
 
 /* Contacts nav */
 
-.contact-link:hover,
+/* .contact-link:hover,
 .contact-link:focus {
   color: var(--hover-color);
 }
@@ -76,6 +76,22 @@
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
+} */
+
+.address-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-link:hover {
+  color: var(--hover-color);
+}
+.address-link:focus {
+  color: var(--hover-color);
 }
 
 /* Hero */
