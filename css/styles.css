@@ -27,6 +27,7 @@
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
 }
 /* Page Header */
@@ -93,8 +94,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--hover-color);
 }
 /* .address-link:focus {
