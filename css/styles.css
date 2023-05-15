@@ -85,7 +85,7 @@
   font-style: normal;
 } */
 
-.address {
+.address-link {
   color: var(--primary-text-color);
   font-style: normal;
   font-family: "Roboto";
