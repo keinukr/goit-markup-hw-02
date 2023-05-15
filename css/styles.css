@@ -12,6 +12,8 @@
 .page {
   background-color: var(--white-text-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 .list {
@@ -31,45 +33,56 @@
 
 .head-logo {
   color: var(--accent-color);
+  font-family: "Raleway", "sans-serif";
+  font-size: 18px;
+  line-height: 1.2;
 }
+
 .studio {
   color: var(--title-text-color);
 }
 
 /* Site navigation */
 
-.hover-item {
+.nav-text {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .current {
   color: var(--hover-color);
 }
 
-.hover-item:hover,
-.hover-item:focus {
+.nav-text:hover,
+.nav-text:focus {
   color: var(--hover-color);
 }
 
 /* Contacts nav */
 
-.intouch {
-  text-decoration: none;
-}
-
-.intouch:hover,
-.intouch:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-color);
 }
 
-.intouch {
+.contact-link {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
 }
 
 /* Hero */
 
 .hero {
   background-color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.8;
+  text-align: center;
 }
 
 .hero-title {
@@ -81,6 +94,12 @@
 .button {
   color: var(--title-text-color);
   background-color: var(--white-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .order {
@@ -105,10 +124,6 @@
 
 /* Section 2 Examples */
 
-.examples-title {
-  color: var(--title-text-color);
-}
-
 /* Section 3 Our Team */
 
 .team {
@@ -117,6 +132,12 @@
 
 .team-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .worker-title {
@@ -126,16 +147,16 @@
 .position-text {
   color: var(--primary-text-color);
 }
+
 /* Footer style for studio */
 
 .footer {
   background-color: var(--title-text-color);
 }
-.studio-secondary {
-  text-decoration: none;
-}
+
 .studio-secondary {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
 }
 .studio-footer {
   color: var(--footer-text-color);
@@ -146,10 +167,11 @@
 }
 
 /* Portfolio */
-
+/* Filter buttons */
 .filter {
   color: var(--accent-color);
   background-color: var(--footer-text-color);
+  cursor: pointer;
 }
 
 .filter:hover,
@@ -159,6 +181,14 @@
 }
 
 /* Services */
+
+.cards-header {
+  color: var(--title-text-color);
+}
+
+.cards-text {
+  color: var(--primary-text-color);
+}
 
 /* Колір параграфів #434455 */
 /* Heading color #2E2F42 */
