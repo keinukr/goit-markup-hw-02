@@ -11,8 +11,8 @@
 
 .page {
   background-color: var(--white-text-color);
-  color: var(--title-text-color);
-  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-family: "Roboto", "sans-serif";
   letter-spacing: 0.02em;
 }
 
@@ -41,7 +41,7 @@
   text-transform: uppercase;
 }
 
-.logo {
+.span {
   color: var(--title-text-color);
 }
 
