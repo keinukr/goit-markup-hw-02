@@ -65,12 +65,12 @@
 
 /* Contacts nav */
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-me:hover,
+.contact-me:focus {
   color: var(--hover-color);
 }
 
-.contact-link {
+.contact-me {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
