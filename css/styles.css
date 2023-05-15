@@ -54,9 +54,9 @@
   line-height: 1.5;
 }
 
-.current {
+/* .current {
   color: var(--hover-color);
-}
+} */
 
 .nav-text:hover,
 .nav-text:focus {
@@ -65,12 +65,12 @@
 
 /* Contacts nav */
 
-.contact-me:hover,
-.contact-me:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-color);
 }
 
-.contact-me {
+.contact-link {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
