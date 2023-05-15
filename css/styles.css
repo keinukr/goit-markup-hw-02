@@ -72,9 +72,12 @@
 
 /* Contacts nav */
 
+.address {
+  font-style: normal;
+}
+
 .address-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
