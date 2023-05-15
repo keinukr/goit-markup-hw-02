@@ -23,6 +23,12 @@
 .link {
   text-decoration: none;
 }
+.basic {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 /* Page Header */
 /* Header Navigation */
 /* Header Logo */
@@ -78,7 +84,7 @@
   font-style: normal;
 } */
 
-.address-link {
+.address {
   color: var(--primary-text-color);
   font-style: normal;
   font-family: "Roboto";
@@ -87,25 +93,26 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-link:hover {
+.address:hover,
+.address:focus {
   color: var(--hover-color);
 }
-.address-link:focus {
+/* .address-link:focus {
   color: var(--hover-color);
-}
+} */
 
 /* Hero */
 
 .hero {
   background-color: var(--title-text-color);
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 1.8;
-  text-align: center;
 }
 
 .hero-title {
   color: var(--white-text-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Button Order */
@@ -133,12 +140,26 @@
 }
 /* Section 1 Service Filter */
 
-.features-title {
+.features-hidden {
   color: var(--title-text-color);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-.features-text {
+.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Section 2 Examples */
@@ -149,14 +170,12 @@
   background-color: var(--footer-text-color);
 }
 
+.team-item {
+  background-color: var(--white-text-color);
+}
+
 .team-title {
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .worker-title {
@@ -176,6 +195,11 @@
 .studio-secondary {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .studio-footer {
   color: var(--footer-text-color);
@@ -190,11 +214,16 @@
 .filter {
   color: var(--accent-color);
   background-color: var(--footer-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .filter:hover,
-.filter.focus {
+.filter:focus {
   color: var(--white-text-color);
   background-color: var(--hover-color);
 }
